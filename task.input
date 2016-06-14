@@ -1,0 +1,56 @@
+//ground truth pattern:
+ground_truth=groundtruth.dat
+//Protein file:
+//protein_file=modelMagR20.pdb
+protein_file=morphcto_11
+//save path:you may like putting output in another path
+save_path=./s/
+//wavelength of x-ray:
+lambda=1.00e-10
+//magnetic field
+MAG_FIELD=OFF
+//magnetic field direction vector
+magnetic_angle=0,0,1
+//B magnetic field, tesla
+tesla=1.0
+//magnetic moment, I*S, magnetic moment of a electron is -9.284e-24J/T
+miu=-9.274e-21
+//temperature, K
+temperature=273
+//distance to screen:
+distance=1.0
+//screen pixels on one edge:
+//scr_size=256
+scr_size=128
+//scr_size=64
+//pix_size of screen:
+//pix_size=0.00432
+pix_size=0.008645052112070126
+//pix_size=0.01729
+//centerlize ON or OFF
+CENTER=ON
+//generate random euler_angle ON or OFF
+RAND_EULER=ON
+//num of random euler angle
+rand_euler_num=2000
+//shift for protein x angstrom
+//shiftx = 1 means switch the protein away from the original point along x axis for 1.0 angstrom
+shiftx=0
+shifty=0
+shiftz=0
+//euler angle:"z-x-z" as default. angle=0,30,45 means rotation around z,x,z axis, respectively
+EULER_def=zxz
+angle=0,0,0
+angle=0,30,0
+angle=0,60,0
+angle=0,90,0
+//laterally zygomorphic(spin the top half of pattern by 180 degree will look like bottom half)
+//switch SYMM ON will reduce half of calculation time
+//this function is not available
+SYMM=OFF
+//demo mode: ON or OFF
+//this function is not available
+DEMO=ON
+//demo size:
+//this function is not available
+demo_size=15
